@@ -1,0 +1,97 @@
+.issues-wrapper {
+  margin: auto 20px;
+  border: 2px solid rgba(27, 31, 35, 0.15);
+  border-radius: 7px;
+  /* display: grid;
+  grid-template-columns: 1fr;
+  height: calc(100vh - 50px); */
+}
+
+.octicon {
+  fill: currentColor;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+}
+
+.open.octicon {
+  color: #56d364;
+}
+
+.issue-container {
+  border-bottom: 2px solid rgba(27, 31, 35, 0.15);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* justify-content: space-between; */
+}
+
+.issue-container > div {
+  height: 35px;
+  /* flex: 1; */
+}
+
+.issue-container:hover {
+  background-color: #f6f8fa;
+}
+
+.opened-by {
+  padding-left: 16px;
+  /* padding-top: 0px; */
+  margin-bottom: 5px;
+}
+
+.extra {
+  height: 80px;
+  border: 1px solid grey;
+}
+
+.issue {
+  padding: 10px 32px 0px 16px;
+  display: flex;
+  align-items: center;
+  /* padding-top: 10px;
+  padding-left: 16px !important;
+  padding-right: 32px !important; */
+}
+
+.labels {
+}
+
+.issue-label {
+  border: 1px solid transparent;
+  border-radius: 2em;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  /* line-height: 18px; */
+  padding: 0 7px;
+  color: black;
+  margin-right: 10px;
+}
+
+.bug-report {
+  background-color: #f49118;
+}
+
+.proposal {
+  background-color: #fbca04;
+}
+
+.triage {
+  background-color: #b5274d;
+  color: white;
+}
+
+.error-message {
+  color: red;
+  position: relative;
+  left: 40%;
+}
+
+/* 
+
+background-color: #fbca04;  issues proposal
+background-color: #b5274d;   needs triage
+background-color: #f49118;   name: "issue: bug report"
+*/

@@ -1,0 +1,129 @@
+.main-header {
+  margin: auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pagehead-actions {
+  display: flex;
+}
+
+.pagehead-actions > li {
+  /* color: #c9d1d9; */
+  float: left;
+  font-size: 11px;
+  list-style-type: none;
+  margin: 0 10px 0 0;
+}
+
+.btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid;
+  border-top-color: currentcolor;
+  border-right-color: currentcolor;
+  border-bottom-color: currentcolor;
+  border-left-color: currentcolor;
+  border-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 5px 16px;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn {
+  background-color: var(--color-btn-bg);
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  box-shadow: var(--color-btn-shadow), var(--color-btn-inset-shadow);
+  color: var(--color-btn-text);
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-property: color, background-color, border-color;
+}
+
+.btn:hover {
+  background-color: #f3f4f6;
+  border-color: rgba(27, 31, 35, 0.15);
+  transition-duration: 0.1s;
+}
+
+.btn-sm {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 3px 12px;
+}
+
+.btn-with-count {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  float: left;
+}
+.octicon {
+  margin-right: 4px;
+  vertical-align: text-bottom;
+}
+
+.text-pink {
+  color: #ea4aaa !important;
+}
+
+.social-count {
+  background-color: #fff;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-bottom-right-radius: 6px;
+  border-left: 0;
+  border-top-right-radius: 6px;
+  box-shadow: var(--color-shadow-small), var(--color-shadow-highlight);
+  color: var(--color-text-primary);
+  float: right;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 3px 12px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+
+  font-size: 14px !important;
+}
+
+.h1 {
+  display: flex;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.mr-2 {
+  margin-right: 8px !important;
+}
+
+.color-text-secondary {
+  color: #8b949e !important;
+}
+
+.mx-1 {
+  margin-left: 4px !important;
+  margin-right: 4px !important;
+}
