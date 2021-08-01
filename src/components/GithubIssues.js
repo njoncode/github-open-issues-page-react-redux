@@ -47,9 +47,8 @@ const GithubIssues = ({ openIssues, openIssuesRequestDispatch, openIssuesFetchSu
     }, [])
 
 
-    const openIssuesData = openIssues.map(({id, number, title, created_at, user: { login }, labels}) => {
-        return (
-        <div className='issue-container' key={`${id} ${created_at}`}>
+    const openIssuesData = openIssues.map(({id, number, title, created_at, user: { login }, labels}) => (
+        <div className='issue-container' key={id}>
         <div className='issue'>
             <svg className="octicon octicon-issue-opened open" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
                 <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
@@ -63,7 +62,7 @@ const GithubIssues = ({ openIssues, openIssuesRequestDispatch, openIssuesFetchSu
         </div>
         <p className='opened-by'>#{number} opened {timeago(created_at)} by {login}</p>
         </div>
-    )})
+    ))
 
     return (
         <div className='issues-wrapper'>
