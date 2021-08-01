@@ -1,4 +1,3 @@
-import { getByPlaceholderText } from '@testing-library/react';
 import React from 'react';
 // import PropTypes from 'prop-types';
 

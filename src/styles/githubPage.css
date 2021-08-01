@@ -23,12 +23,10 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  /* justify-content: space-between; */
 }
 
 .issue-container > div {
   height: 35px;
-  /* flex: 1; */
 }
 
 .issue-container:hover {
@@ -37,7 +35,6 @@
 
 .opened-by {
   padding-left: 16px;
-  /* padding-top: 0px; */
   margin-bottom: 5px;
 }
 
@@ -50,12 +47,6 @@
   padding: 10px 32px 0px 16px;
   display: flex;
   align-items: center;
-  /* padding-top: 10px;
-  padding-left: 16px !important;
-  padding-right: 32px !important; */
-}
-
-.labels {
 }
 
 .issue-label {
@@ -64,7 +55,6 @@
   display: inline-block;
   font-size: 12px;
   font-weight: 500;
-  /* line-height: 18px; */
   padding: 0 7px;
   color: black;
   margin-right: 10px;
