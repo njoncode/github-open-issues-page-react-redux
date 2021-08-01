@@ -12,3 +12,14 @@
   font-weight: 600;
   white-space: nowrap;
 }
+
+.hamburger {
+  color: white;
+  margin-left: 25px;
+}
+
+.avatar-user {
+  width: 30px;
+  height: 30px;
+  margin-right: 25px;
+}

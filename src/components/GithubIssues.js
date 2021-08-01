@@ -68,7 +68,7 @@ const GithubIssues = ({ openIssues, openIssuesRequestDispatch, openIssuesFetchSu
     return (
         <div className='issues-wrapper'>
             {isLoading && <Loading />}
-            {error && error.length && <p className='error-message'>{error}</p>}
+            {/* {error && error.length && <p className='error-message'>{error}</p>} */}
             <InfiniteScroll
                 dataLength = {openIssues.length}
                 next = {fetchNextIssues}
@@ -80,7 +80,7 @@ const GithubIssues = ({ openIssues, openIssuesRequestDispatch, openIssuesFetchSu
                     </p>
                 }
             >
-            {openIssuesData}
+                {openIssuesData}
             </InfiniteScroll>
         </div>
     )
